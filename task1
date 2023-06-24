@@ -1,0 +1,69 @@
+-studentrollno INT (PK)
+-name CHAR(45)
+-location CHAR(45)
+-degree INT (FK)
+-year int()                                 
+-department INT (FK)            
+-gender (FK)
+-mobilenumber INT
+-emailid CHAR(45) (UQ)
+-hostel/dayscholar CHAR(45) (FK)
+
+
+-Sno INT (PK)
+-HODmailids INT (UQ)
+-HODname CHAR(45)
+-HODdept INT (FK)
+-experience INT
+-intercom CHAR(45)
+-gender INT (FK)
+
+
+-Sno INT (PK)
+-emailid CHAR(45) (UQ)
+-name CHAR(45)
+-Qualification CHAR(10)
+-contactno INT
+-areaofexpertise CHAR(45)
+-gender INT (FK)
+
+
+-sno INT (PK)
+-studentrollno INT (FK)
+-father's name CHAR(45)
+-Mother's name CHAR(45)
+-occupation CHAR(20)
+-annual income INT
+
+
+-Sno INT (PK)
+-Name CHAR(25)
+-mailid CHAR(30)
+-contact no (INT)
+-gender (INT) (FK)
+
+
+-H/S CHAR(2) (PK)
+-hosteldayschol CHAR(15)
+
+
+-dept INT (PK)
+-Department CHAR(45)
+
+
+-gender INT (PK)
+-m/f CHAR(45)
+
+
+-degree INT (PK)
+-degreename CHAR(10)
+
+
+
+
+( PS:  *each subdivided parts can be identified as a seperate table )
+
+
+
+
+
